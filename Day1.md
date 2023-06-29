@@ -151,7 +151,9 @@ ssh -S /tmp/gray dummy -O cancel -L 1112:192.168.28.111:8080
 ssh -S /tmp/gray dummy -O forward -D 9050 (scan)
 ssh -S /tmp/gray dummy -O cancel -D 9050 (close)
 
+HOW TO ADD A PIVOT:
 
+ssh -MS /tmp/T2 billybob@localhost -p 51002 
 
 ```
 
