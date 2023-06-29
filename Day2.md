@@ -53,6 +53,38 @@ Command Injection:
 ## Demos
 ```
 
+../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd
+/etc/hosts
+
+<script>alert('XD')</script>
+
+Java Script:
+go to dev console
+run some functions
+F12==inspector
+
+Malicious File Upload:
+upload file
+access file
+run commands
+ssh key upload
+
+ssh keygen:
+find command injection/file upload
+find user
+find users home dir(cat /etc/passwd)
+ls -latr /var/www(home dir)
+mkdir .ssh in home dir
+on linops -- ssh-keygen -t rsa (use default no passphrase)
+on linops -- copy entire key
+echo the key and redirect into home dir/.ssh/authorized_keys
+
+cookie stealing:
+(chat room)
+test for cross site scripting
+make file named in cookie stealer
+upload both files
+use ip of website(not tunnel)
 
 
 ```
