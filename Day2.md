@@ -40,6 +40,7 @@ Stays on page. anyone that accesses a page will get hacked
 
 Server-Side injection:
 uses relative paths (../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd)(can get usernames and /etc/hosts  for hostnames)
+****DONE IN A URL*****
 
 Malicious file upload:
 you need to be able to upload a file, AND find uploaded file
@@ -53,6 +54,7 @@ Command Injection:
 ## Demos
 ```
 
+*****DONE IN A URL*****
 ../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd
 /etc/hosts
 
