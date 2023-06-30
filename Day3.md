@@ -77,6 +77,12 @@ When given options, use them
 
 USE THE GOLDEN STATEMENT TO CRAFT THE NEXT QUERY
 
+GET METHOD:
+SUBMIT=SUBMIT == TRASH(delete it)
+IN URL (add OR 1=1)
+UNION 1,2,3;#
+
+
 ```
 
 ## 
