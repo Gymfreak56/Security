@@ -3,7 +3,7 @@
 
 10.50.40.121/classinfo.html
 
-Stack Number	  Username	      Password	    lin.internet
+Stack Number	Username	      Password	      lin.internet
     10	       ANME-004-M	  kA2mvZmxXvN3KFh	  10.50.29.76
 
 GRAYHOST
